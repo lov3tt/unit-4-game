@@ -7,7 +7,7 @@ Who maintains and contributes to the project -->
 
 Purpose: The "Crystal Collectors" activity help the student understand the basic concept of Jquery in respect to how to call in from a library databases externally to alleviate the amount of code required.
 
-How to Play: https://lov3tt.github.io/Word-Guess/
+How to Play: https://lov3tt.github.io/unit-4-game/
 
 >Given a random numbers at the start of the game.
 
