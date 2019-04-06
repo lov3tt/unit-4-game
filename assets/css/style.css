@@ -1,0 +1,81 @@
+.wrapper {
+    
+    width: 70%;
+    margin: 20px;
+    
+}
+h1 {
+    font-size: 34px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+.ScoreBoard {
+    background-color: aqua;
+    width: 100px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+
+}
+
+.option {
+    width: 100%;
+    float: left;
+}
+
+.IntructionText {
+    padding: 20px;
+    width: 400px;
+    font-size: 18px;
+    background-color: aquamarine;
+    margin: 10px;
+    font-weight: bold;
+    
+
+}
+
+.TargetScoreText {
+    background-color: greenyellow;
+    margin:10px;
+    margin-right: 20px;
+    width: 50px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Current {
+    width: 150px;
+    background-color: green;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 100px;
+    float: left;
+        
+}
+
+.CurrentScoreText {
+    background-color: green;
+    color:white;
+    margin:10px;
+    margin-right: 20px;
+    width: 50px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float:left;
+    font-size: 30px;
+    font-weight: bold;
+}

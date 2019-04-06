@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collectors</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<body background="assets/images/prism.png">
+    <div class="wrapper">
+        <h1>CrystalsCollectors!</h1>
+        <div class="IntructionText">
+            <p>You will be given a random numbers at the start of the game.</p>
+            <br>
+            <br>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <br>
+            <br>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
+            <br>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <br>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+            <br><br>
+            <br><br>
+
+
+        </div>
+
+        <div class="TargetScoreText"></div>
+        <div class="ScoreBoard">
+
+            <p id="State"></p>
+            <br>
+            <p id="winText"></p>
+            <br>
+            <p id="loseText"></p>
+            <br>
+        </div>
+
+
+        <div class="option">
+            <input class="box1" type=image src=assets/images/diamond.png alt="diamond" height="100px"
+                width="100px"></input>
+            <input class="box2" type=image src=assets/images/emerald.png alt="emerald" height="100px"
+                width="100px"></input>
+            <input class="box3" type=image src=assets/images/ruby.jpg alt="ruby" height="100px" width="100px"></input>
+            <input class="box4" type=image src=assets/images/sapphire.jpg alt="sapphire" height="100px"
+                width="100px"></input>
+        </div>
+
+
+
+
+        <div class="Current">
+            <p>Your total score is:</p>
+        </div>
+        <br style="clear:both" />
+        <div class="CurrentScoreText"></div>
+
+
+
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </div>
+</body>
+
+</html>
